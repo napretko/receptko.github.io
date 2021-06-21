@@ -1,0 +1,178 @@
+body
+{
+    background: #f3f3f3;
+    color: black;
+}
+
+.ozadje
+{
+    background: url(../Images/fooddoodle2.PNG);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 45px;
+    transform: scale(-1);
+    opacity: 0.3;   
+}
+
+/*Recept 
+=====================================*/
+.recept 
+{
+    width: 60%;
+    margin: 5% 20% 5% 20%;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 4px 8px 0 #e6e6e6, 0 6px 20px 0 #e6e6e6;
+}
+
+.recept-slika
+{
+    border-radius: 10%;
+}
+
+.recept img
+{
+    height: 100%;
+    border-radius: 1%;
+}
+
+/*Podrobnosti 
+=====================================*/
+.podrobnosti
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: wheat;
+    width: 60%;
+    color: rgb(59, 59, 59);
+    border-radius: 10px;
+}
+
+
+.podrobnosti-ime
+{
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 0 30px 30px 30px;
+
+}
+
+.podrobnosti-opis
+{
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    padding: 0 30px 30px 30px;
+    line-height: 30px;
+}
+
+.podrobnosti-opis hr
+{
+    margin-top: 40px; 
+}
+
+/*Priprava 
+=====================================*/
+.priprava
+{
+    display: flex;
+    color: black;
+    margin: 15px;
+}
+
+.priprava-cas
+{
+    background-color: #e6e3e3;
+    height: 60px;
+}
+
+.priprava-sestavine
+{
+    width: 40%;
+    padding-right: 15px;
+}
+
+.priprava-postopek
+{
+    width: 60%;
+}
+
+.sestavine-text
+{
+    font-size: 22px;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.priprava-text
+{
+    font-size: 22px;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.priprava svg
+{
+    width: 20px;
+    height: 20px;
+}
+
+/*Tabela 
+=====================================*/
+.tabela-sestavine
+{
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+}
+
+.tabela-kolicina
+{
+    background-color: #e6e3e3;
+    height: 60px;
+}
+
+td
+{
+    border: 1px solid #f3f3f3;
+}
+
+table 
+{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+}
+
+.L
+{
+    width: 30%;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.L1
+{
+    width: 30%;
+    text-align: center; 
+}
+
+.L2
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.D2
+{
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    line-height: 20px;
+    color: gray;
+}

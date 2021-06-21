@@ -1,0 +1,231 @@
+/*Basic styles
+=====================================*/
+body {
+    margin: 0;
+    font-family: Inter,system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Droid Sans,Helvetica Neue,sans-serif !important;
+}
+
+.prijava {
+    display: flex;
+    width: 100%;
+}
+
+.prijava-left {
+    background-color: white;
+    width: 100%;
+}
+
+.prijava-right {
+    display: flex;
+    width: 100%;
+}
+
+.prijava-right img
+{
+    width: 100%;
+    height: 107%;
+}
+
+.abc
+{
+    padding-left: 25%;
+    padding-top: 3%;
+    padding-bottom: 12px;
+    background-color: #fcfcfc;
+}
+
+
+
+/*Nav-bar
+=====================================*/
+.nav-bar {
+    display: flex;
+    background-color: white;
+    height: 65px;
+    box-shadow: 0 0 2em rgb(0 0 0 / 12%) !important;
+
+}
+
+.nav-bar-left {
+    width: 60%;
+    display: flex;
+}
+
+.nav-bar-logo
+{
+    color: #2b8eb6d2 !important;
+    font-size: xx-large !important;
+    font-family: Brush Script MT !important;
+    margin-top: 15px;
+}
+
+.nav-bar-left svg {
+    width: 22px;
+    margin: 20px;
+}
+
+.nav-bar-left a {
+    border: none;
+    color: black;    
+}
+
+.nav-bar-left a :hover {
+    border: none !important;
+    text-decoration: none !important;    
+}
+
+.nav-bar-right {
+    width: 40%;
+    display: flex;
+    float: right;
+}
+
+/*Login
+=====================================*/
+.login-form {
+    width: 335px;
+    height: 370px;
+    background-color: white;
+    margin-left: 70px;
+
+}
+
+.login-form input{
+    width: 99%;
+    height: 42px;
+    border-style: none;
+    border-style: hidden;
+    border-color: white;
+    font-size: 15px;
+    border: 0.5px solid #e6e6e6;
+    border-radius: 5px;
+}
+
+.uime
+{
+    margin-top: 27px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.geslo
+{
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.napaka
+{
+    text-align: center;
+}
+
+/*Registracija
+=====================================*/
+.registracija
+{
+    border-top: 1px solid #e6e6e6;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.registracija a
+{
+    color: #065fa9;
+}
+
+/* Hover styles */
+
+body a:hover {
+    color: black;
+    border: none !important;
+    text-decoration: none !important;
+}
+
+/* Extra styles*/
+hr {
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+h2 {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+
+select {
+    width: 52px;
+    height: 30px;
+    border-style: none;
+    border: hidden;
+    margin-right: 15px;
+}
+
+/* Button styles*/
+
+.button1 {
+    /*background-color: #065fa9;*/
+    background-image: linear-gradient(#78c8e7, #0f1b52c7);
+    color: white;
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 17px;
+    
+}
+
+.button2 {
+    /*background-color: #065fa9;;*/
+    background-image: linear-gradient(#78c8e7, #0f1b52c7);
+    color: white;
+    width: 125px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 10px 10px 30px;
+    font-weight: bolder;
+}
+
+.button-img {
+    border-color: white;
+    border-style: none;
+}
+
+/* Color styles*/
+
+.lightblue {
+    color:  #3d91d6;
+}
+
+.grey {
+    text-transform: uppercase;
+    color: rgb(163, 158, 158);
+}
+
+.siva {
+    color: rgb(163, 158, 158);
+    margin: 20px 0 20px 70px;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.bela {
+	color: #ffffff;
+	font-size: 0.9em;
+}

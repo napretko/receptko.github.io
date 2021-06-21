@@ -1,0 +1,163 @@
+body
+{
+    background: #f3f3f3;
+}
+
+/*Kalkulator kalorij
+=====================================*/
+.kalkulatorja-skupaj
+{
+    display: flex;
+    margin: 5% 15% 5% 35%;
+}
+
+.kalkulator-kalorij
+{
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    color: black;
+    margin-right: 50px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 4px 8px 0 #e6e6e6, 0 6px 20px 0 #e6e6e6;
+}
+
+.kalkulator-naslov
+{
+    border-bottom: 1px solid #f3f3f3;
+    font-family: sans-serif;
+    font-weight: bolder;
+    height: 20px;
+    padding: 18px;
+    font-size: 19px;
+    letter-spacing: 0.7px;
+    color: rgb(77, 75, 75);
+}
+
+.kalkulator-text
+{
+    padding: 20px 20px 0px 20px;
+    color: gray;
+    letter-spacing: 0.7px;
+}
+
+.kalkulator-podatki
+{
+    padding: 20px 20px 0px 20px;
+}
+
+.kalkulator-podatki input
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #f3f3f3;
+}
+
+.input1
+{
+    margin-top: 20px;
+}
+
+::placeholder
+{
+    color: gray;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+.gumb-izracun
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(77, 77, 77);
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    margin-top: 30px;
+}
+
+/*Rezultat
+=====================================*/
+.rezultat
+{
+    margin-top: 25px;
+    background: lightgray;
+    text-align: center;
+}
+
+.rezultat-text
+{
+    margin: 5px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.rezultat-stevilo
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*Zaužite kalorije
+=====================================*/
+.zauzite-kalorije
+{
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    color: black;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 4px 8px 0 #e6e6e6, 0 6px 20px 0 #e6e6e6;
+}
+
+.sestavina-kalorije
+{
+    border: 1.5px solid #f3f3f3;
+    width: 30px !important;
+    height: 20px !important;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    padding: 12px;
+}
+
+.vnos
+{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+
+.input2
+{
+    width: 90px !important;
+    height: 34px;
+}
+
+.gumb-dodaj
+{
+    border-style: none;
+    background-color: white;
+}
+
+.select-izbira
+{
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #f3f3f3;
+}
+
+svg
+{
+    height: 20px;
+    width: 20px;
+}
